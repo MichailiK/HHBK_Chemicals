@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace HHBK_Chemicals_ERP_CS
 {
-    public partial class ViewRechnungErstellen : Form, IViewRechnungErstellen
+    public partial class ViewRechnungErstellen : Form // TODO IViewRechnungErstellen
     {
         public ViewRechnungErstellen()
         {

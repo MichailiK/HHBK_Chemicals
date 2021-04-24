@@ -1,7 +1,7 @@
 ﻿
 namespace HHBK_Chemicals_ERP_CS
 {
-    partial class viewProdukt
+    partial class ViewProdukt
     {
         /// <summary>
         /// Required designer variable.
@@ -108,7 +108,7 @@ namespace HHBK_Chemicals_ERP_CS
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
-            this.Name = "viewProdukt";
+            this.Name = "ViewProdukt";
             this.Text = "viewProdukt";
             this.Load += new System.EventHandler(this.viewProdukt_Load);
             this.ResumeLayout(false);

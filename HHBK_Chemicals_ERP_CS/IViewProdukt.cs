@@ -8,10 +8,10 @@ namespace HHBK_Chemicals_ERP_CS
 {
     interface IViewProdukt
     {
-        private int Artikelnummer;
-        private string Artikelname;
-        private int Verkaufseinheit;
-        private string Einheit;
-        private double PreisVK;
+        int Artikelnummer { get; }
+        string Artikelname { get; }
+        int Verkaufseinheit { get; }
+        string Einheit { get; }
+        double PreisVK { get; }
     }
 }

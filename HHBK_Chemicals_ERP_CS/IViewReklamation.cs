@@ -3,14 +3,10 @@
     internal interface IViewReklamation
     {
         //Reklamation erfassung
-       public string Kundendaten { get; set; }
-       public string Bestelldaten { get; set; }
-       public string Reklamationsgrund { get; set; }
+        string Kundendaten { get; set; }
+        string Bestelldaten { get; set; }
+
+        string Reklamationsgrund { get; set; }
         // Verfahren wählen
-      
-        
-        
-             
-        
     }
 }

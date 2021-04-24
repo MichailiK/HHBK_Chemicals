@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace HHBK_Chemicals_ERP_CS
 {
-    public partial class Ali_ElMalki : Form
+    public partial class ViewProdukt : Form
     {
-        public Ali_ElMalki()
+        public ViewProdukt()
         {
             InitializeComponent();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void viewProdukt_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
